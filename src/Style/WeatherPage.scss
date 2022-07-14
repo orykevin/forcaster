@@ -1,0 +1,248 @@
+@import "./BreakPoints.scss";
+
+.w-container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    z-index: 3;
+    .w-header{
+    width: 100%;
+    margin-bottom: 0px;
+        img{
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        margin: 0 25px;
+        transform: rotate(-90deg);
+        width: 24px;
+        @include media (">=desktop"){
+            margin-left: 7%;
+            top: 25px;
+        }
+        cursor: pointer;
+        }
+        h1{
+        font-size: 24px;
+        margin: 20px 0;
+        text-align: center;
+        @include media (">=desktop"){
+            font-size: 28px;
+        }
+    }}
+    .select-cont{
+    margin : 30px 0 0 0;
+    display: flex;
+        h4{
+        margin: 2px 5px 0 25px;
+        };
+        select{
+        outline: none;
+        border: 1px solid;
+        border-radius:5px ;
+        padding: 2px 5px;
+        font-weight: 600;
+        @include media (">=desktop"){
+            margin: 3px  0  0 5px;
+        }
+        }
+        @include media (">=desktop"){
+            margin-left: 10%;
+            font-size: 20px;
+        }
+    }
+}
+.allwth-cont{
+    display: flex;
+    flex-wrap:  wrap;
+    width: 100%;
+    max-width: 370px;
+    margin: 20px auto;
+}
+.wcard-cont{
+    position: relative;
+    width: 165px;
+    height: 75px;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg,#5A97CE, #F36A44);
+    color: white;
+    display: flex;
+    cursor: pointer;
+    margin: 10px 2px 5px 6px;
+    .wcard-info{
+        width: 100%;
+        h4{
+            padding: 10px 0 0 10px;
+            font-size: 18px ;
+        }
+        p{
+            font-size: 11px;
+            margin: 2px 0 0 10px;
+            font-weight: 500;
+        }
+    }
+    .wcard-img{
+        width: 70px;
+        margin: 10px 10px 0 0 ;
+        img{
+            display: block;
+            width: 30px;
+            margin: 0px auto 5px auto;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 50%;
+            border:1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.555);
+        }
+        p{
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+}
+.nowrap{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 10px 0 0 0;
+}
+
+.w-all-cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 590px;
+}
+.detail-container1{
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 400px;
+    outline: solid white 1px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.023);
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.37);
+    z-index: 0;
+    padding: 25px 0 10px 0 ;
+    @include media (">=desktop"){
+        max-width: 590px;
+        height: 350px;
+        display: block;
+       top: 190px;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+    .info-container{
+        width: 85%;
+        margin: 0px auto 0px auto;
+        color: white;
+        @include media (">=desktop"){
+            max-width: 220px;
+            height: 125px;
+        }
+        h4{
+            width: 100%;
+            font-size: 22px;
+            margin: 15px 0 10px 0 ;
+            @include media (">=desktop") {
+                font-size: 28px;
+            }
+        }
+        p{
+            @include media (">=desktop") {
+                font-size: 24px;
+            }
+        }
+        .det-cont{
+            display: flex;
+        p{
+            width: 120px;
+            margin: 5px 0 0px 0;
+            @include media (">=desktop") {
+                font-size: 24px;
+                width: 130px;
+            }
+        }
+        span{
+            margin: 5px 0 5px 0;
+            @include media (">=desktop") {
+                font-size: 24px;
+                width: 100px;
+            }
+        }
+        }
+    }
+}
+.details-2{
+    width: 300px;
+    top: 20px;
+    padding: 0 0 70px 0;
+    color: black;
+    position: relative;
+    @include media (">=desktop"){
+        top: 30px;
+        width: 590px;
+    }
+}
+.detail-date-cont{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    @include media (">=desktop"){
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+.background-span{
+    position: absolute;
+    top:225px ;
+    width: 300px;
+    height: 472px;
+    background-image: linear-gradient(120deg,#5A97CE, #F36A44);
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    @include media (">=desktop"){
+        width: 590px;
+        height: 420px;
+        top:248px ;
+    }
+}
+.btn-close{
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.slick-slide {
+    margin: 0 0px;
+}
+.slide-cont{
+    width: 99%;
+    max-width:355px;
+    margin: 10px  auto 0 auto;
+    @include media(">=set1"){
+        max-width:527px ;
+    }
+    @include media (">=set2"){
+        max-width: 710px;
+    }
+    @include media (">=desktop"){
+        margin-top: 15px;
+        max-width: 880px;
+    }
+}
+.card-active{
+    outline: #7ab3e4 3px solid;
+}

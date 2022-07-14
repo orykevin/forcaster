@@ -1,0 +1,193 @@
+@mixin center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@import "./BreakPoints.scss";
+.center-desk{
+    @include media (">=desktop"){
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1100px;
+    }
+}
+.front-container{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    @include media (">=desktop") {
+        width: 90%;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    h1{
+        margin-top: 25px;
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-size: 28px;
+        @include media (">=desktop") {
+            text-align: left;
+            margin: 30px auto 5px auto;
+        }
+    }
+    img{
+        width: 27px;
+        position: absolute;
+        top:25px;
+        right: 15px;
+        cursor: pointer;
+        @include media (">=set1"){
+            margin-right: 10%;
+        }
+        @include media (">=desktop") {
+            position: relative;
+            margin: 25px auto 5px auto;
+            top: 0px;
+        }
+        
+    }
+}
+.current-container{
+    margin-top: 70px;
+    text-align: center;
+    color:white;
+    @include media (">=desktop") {
+        width: 40%;
+        text-align: left;
+        margin: 80px 0 0 5%;
+    }
+    p{
+        font-size: 20px;
+        @include media (">=desktop") {
+            font-size: 24px;
+        }
+    }
+    h1{
+        font-size: 132px;
+        @include media (">=desktop") {
+            font-size: 140px;
+        }
+    }
+    span{
+        font-size: 90px;
+        position: absolute;
+    }
+    h4{
+        font-size: 24px;
+        margin: 10px 0 20px 0;
+        @include media (">=desktop") {
+            font-size: 28px;
+        }
+    }
+    
+}
+.details-btn{
+    position: relative;
+    color: white;
+    width: 60px;
+    margin:15vh auto 5vh auto;
+    z-index: 2;
+    cursor: pointer;
+    
+    img{
+        width: 30px;
+        margin: 0 15px;
+        z-index: 4;
+    }
+    p{
+        text-align: center;
+    }
+}
+.opened{
+    margin-top: 6vh;
+    transform: rotate(180deg);
+}
+button{
+    width: 80%;
+    max-width: 250px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
+    @include center();
+    bottom: 50px;
+    cursor: pointer;
+    @include media (">=desktop") {
+        position: relative;
+        transform: translateX(0);
+       left: 5%;
+       top: 35px;
+       border-radius: 15px;
+    }
+}
+.detail-container{
+    top: 90px;
+    @include center();
+    transform: translateX(-50%);
+    width: 80%;
+    height: 400px;
+    outline: solid white 1px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 0;
+    padding: 25px 0 10px 0 ;
+    @include media (">=desktop"){
+        max-width: 590px;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        transform: translateX(0);
+       top: 170px;
+       left: 40%;
+    }
+    .info-container{
+        width: 85%;
+        margin: 0px auto 10px auto;
+        color: white;
+        @include media (">=desktop"){
+            max-width: 220px;
+            height: 125px;
+        }
+        h4{
+            width: 100%;
+            font-size: 22px;
+            margin: 15px 0 10px 0 ;
+            @include media (">=desktop") {
+                font-size: 28px;
+            }
+        }
+        p{
+            @include media (">=desktop") {
+                font-size: 24px;
+            }
+        }
+        .det-cont{
+            display: flex;
+        p{
+            width: 120px;
+            margin: 5px 0 0px 0;
+            @include media (">=desktop") {
+                font-size: 24px;
+                width: 130px;
+            }
+        }
+        span{
+            margin: 5px 0 5px 0;
+            @include media (">=desktop") {
+                font-size: 24px;
+                width: 100px;
+            }
+        }
+        }
+    }
+}
