@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/forcaster/static/css/main.5efe571e.css",
+    "main.js": "/forcaster/static/js/main.7841cfa5.js",
+    "static/js/787.5c952efa.chunk.js": "/forcaster/static/js/787.5c952efa.chunk.js",
+    "static/media/slick.svg": "/forcaster/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/forcaster/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/forcaster/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/forcaster/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/ham.svg": "/forcaster/static/media/ham.386afc7555b5e310f4b3ad11d7d40db3.svg",
+    "index.html": "/forcaster/index.html",
+    "static/media/arrow copy.svg": "/forcaster/static/media/arrow copy.ba1bda61321b35cab72a9482def5e01c.svg",
+    "static/media/arrow.svg": "/forcaster/static/media/arrow.93f62d11d4e3152b9466a9d689058e8c.svg",
+    "main.5efe571e.css.map": "/forcaster/static/css/main.5efe571e.css.map",
+    "main.7841cfa5.js.map": "/forcaster/static/js/main.7841cfa5.js.map",
+    "787.5c952efa.chunk.js.map": "/forcaster/static/js/787.5c952efa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5efe571e.css",
+    "static/js/main.7841cfa5.js"
+  ]
+}
