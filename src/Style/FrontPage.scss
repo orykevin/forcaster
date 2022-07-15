@@ -14,6 +14,7 @@
 .front-container{
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 .header{
     display: flex;
@@ -189,5 +190,10 @@ button{
             }
         }
         }
+    }
+}
+@media screen and ( max-height: 700px ){
+    .details-btn{
+        margin-top: 5vh;
     }
 }

@@ -26,7 +26,7 @@ function FrontPage({currentWeather,country,castDisplay,setCast}) {
             <p>{formatDate(dt)}</p>
             <h1>{Math.ceil(currentWeather.temp)}<span>&#176;</span></h1>
             <h4>{currentWeather.weather[0].main}</h4>
-            <p>{country.city}</p>
+            <p>{country.state}</p>
             <p>{country.country}</p>
         </div> : ""}
         
