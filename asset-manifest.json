@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/forcaster/static/css/main.5efe571e.css",
-    "main.js": "/forcaster/static/js/main.07433f53.js",
+    "main.js": "/forcaster/static/js/main.ededa43a.js",
     "static/js/787.5c952efa.chunk.js": "/forcaster/static/js/787.5c952efa.chunk.js",
     "static/media/slick.svg": "/forcaster/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/forcaster/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -12,11 +12,11 @@
     "static/media/arrow copy.svg": "/forcaster/static/media/arrow copy.ba1bda61321b35cab72a9482def5e01c.svg",
     "static/media/arrow.svg": "/forcaster/static/media/arrow.93f62d11d4e3152b9466a9d689058e8c.svg",
     "main.5efe571e.css.map": "/forcaster/static/css/main.5efe571e.css.map",
-    "main.07433f53.js.map": "/forcaster/static/js/main.07433f53.js.map",
+    "main.ededa43a.js.map": "/forcaster/static/js/main.ededa43a.js.map",
     "787.5c952efa.chunk.js.map": "/forcaster/static/js/787.5c952efa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5efe571e.css",
-    "static/js/main.07433f53.js"
+    "static/js/main.ededa43a.js"
   ]
 }
